@@ -1,6 +1,8 @@
 # 📝 To-Do List App
 
 A simple, efficient command-line to-do list manager built with **Go**. Manage your tasks directly from the terminal with an intuitive interface.
+This project was based on the following YouTube tutorial: "How to Build A CLI Todo App in Go" by Coding with Patrik. Link: https://www.youtube.com/watch?v=g16Zf0KQEWI 
+It is intended for learning purposes.
 
 ## ✨ Features
 
