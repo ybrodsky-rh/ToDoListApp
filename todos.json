@@ -2,19 +2,63 @@
     {
         "Title": "Buy milk",
         "Completed": true,
+        "Priority": "",
+        "Tags": null,
         "CreatedAt": "2026-01-11T12:46:36.057258+02:00",
-        "CompletedAt": "2026-01-11T12:46:36.057259+02:00"
+        "CompletedAt": "2026-01-11T12:46:36.057259+02:00",
+        "DueDate": null
     },
     {
         "Title": "Buy bread",
         "Completed": false,
+        "Priority": "",
+        "Tags": null,
         "CreatedAt": "2026-01-11T12:46:36.057259+02:00",
-        "CompletedAt": null
+        "CompletedAt": null,
+        "DueDate": null
     },
     {
         "Title": "Go for a run",
         "Completed": false,
+        "Priority": "",
+        "Tags": null,
         "CreatedAt": "2026-01-11T13:04:51.935107+02:00",
-        "CompletedAt": null
+        "CompletedAt": null,
+        "DueDate": null
+    },
+    {
+        "Title": "Learn Go basics",
+        "Completed": false,
+        "Priority": "High",
+        "Tags": [
+            "learning",
+            "golang"
+        ],
+        "CreatedAt": "2026-01-11T15:33:13.830494+02:00",
+        "CompletedAt": null,
+        "DueDate": "2026-01-20T00:00:00Z"
+    },
+    {
+        "Title": "Build project",
+        "Completed": false,
+        "Priority": "Medium",
+        "Tags": [
+            "work"
+        ],
+        "CreatedAt": "2026-01-11T15:33:19.042868+02:00",
+        "CompletedAt": null,
+        "DueDate": null
+    },
+    {
+        "Title": "Buy groceries",
+        "Completed": false,
+        "Priority": "Low",
+        "Tags": [
+            "shopping",
+            "home"
+        ],
+        "CreatedAt": "2026-01-11T15:33:24.331035+02:00",
+        "CompletedAt": null,
+        "DueDate": null
     }
 ]
