@@ -68,13 +68,14 @@ func (cf *CmdFlags) Execute(todos *Todos) {
 			results.print()
 		}
 	case cf.Sort != "":
-		if cf.Sort == "priority" {
+		switch cf.Sort {
+		case "priority":
 			todos.sortByPriority()
 			fmt.Println("Sorted by priority")
-		} else if cf.Sort == "date" {
+		case "date":
 			todos.sortByDate()
 			fmt.Println("Sorted by date")
-		} else {
+		default:
 			fmt.Println("Invalid sort option. Use 'priority' or 'date'")
 		}
 	case cf.Add != "":
